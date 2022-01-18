@@ -9,5 +9,8 @@
             "email": "iadeyinka03@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    },
     "require": {}
 }
