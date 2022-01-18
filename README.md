@@ -7,21 +7,21 @@ define("API_CODE", "exxxxxxxx.xxxxxxxxxxxxxxxxx"); //the API code is x-api-key a
 
 the two parameters can be passed to dataVerification method available in MyIdentityPass Class as below
 
-function dataVerification($number,$url,$api_key){
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL,$url);
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, 
-                 http_build_query(array('number' => $number)));
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            "X-API-Key: $api_key",
-            "Cache-Control: no-cache",
-          ));
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        $server_output = curl_exec($ch);
-        
-        curl_close ($ch);
-        return $server_output;
-    }
+                function dataVerification($number,$url,$api_key){
+                        $ch = curl_init();
+                        curl_setopt($ch, CURLOPT_URL,$url);
+                        curl_setopt($ch, CURLOPT_POST, true);
+                        curl_setopt($ch, CURLOPT_POSTFIELDS, 
+                                 http_build_query(array('number' => $number)));
+                        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                            "X-API-Key: $api_key",
+                            "Cache-Control: no-cache",
+                          ));
+                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                        $server_output = curl_exec($ch);
+
+                        curl_close ($ch);
+                        return $server_output;
+                    }
     
-    I only use arrayPrinter method to see my response in json
+  I only use arrayPrinter method to see my response in json
