@@ -1,0 +1,13 @@
+{
+    "name": "idmaintzain/myidentitypass",
+    "description": "This library will enable you to verify your BVN/NIN/CAC/TIN/PH",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adeyinka Idowu",
+            "email": "iadeyinka03@gmail.com"
+        }
+    ],
+    "require": {}
+}
