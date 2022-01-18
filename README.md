@@ -1,4 +1,9 @@
-This code will enable you to verify your BVN/NIN/CAC/TIN/PHONE Number with MyIdentityPass API (Nigeria)
+**To install**
+
+composer require idmaintzain/myidentitypass
+
+
+This libray will enable you to verify your BVN/NIN/CAC/TIN/PHONE Number with MyIdentityPass API (Nigeria)
 You can check myidentity pass official website for more documentation on the api at https://developer.myidentitypass.com/data-verification-1/nigeria
 
 Set your constant as below
