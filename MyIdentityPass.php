@@ -1,7 +1,7 @@
 <?php
 class MyIdentityPass  {
 
-    function bvnNin($number,$url,$api_key){
+    function dataVerification($number,$url,$api_key){
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL,$url);
         curl_setopt($ch, CURLOPT_POST, true);
