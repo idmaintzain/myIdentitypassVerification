@@ -1,6 +1,6 @@
 {
     "name": "idmaintzain/myidentitypass",
-    "description": "This library will enable you to verify your BVN/NIN/CAC/TIN/PH",
+    "description": "This library will enable you to verify your BVN/NIN/CAC/TIN/PHONE NUMBER",
     "type": "library",
     "license": "MIT",
     "authors": [
